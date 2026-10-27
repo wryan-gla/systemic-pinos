@@ -1,0 +1,9 @@
+# Keep data and trained weights out of the repository
+*.npz
+*.npy
+*.pkl
+*.h5
+*.keras
+*.mat
+*.csv
+__pycache__/
