@@ -16,8 +16,6 @@ This repository contains basic implementations of the three physics-informed neu
 | `DeepONet` | Separate flow/pressure branch nets on the inflow; shared residual-MLP trunk on (t, x, parameters) | Automatic differentiation at random collocation points |
 | `PODDeepONet` | Branch nets predicting coefficients of a fixed POD basis built from training data | Finite differences on the output grid |
 
-It is intended as a starting point for trying the modelling approach, **not** as a pipeline for reproducing the paper's results. No data or trained weights are included and network sizes are arbitrary.
-
 ### Method summary
 
 Each vessel in the network gets its own operator, mapping
